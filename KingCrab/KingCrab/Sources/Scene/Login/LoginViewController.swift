@@ -25,19 +25,20 @@ class LoginViewController: UIViewController {
         $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
     }
     
-    let idtextfield = idTextField().then {
-        $0.placeholder = "아이디를 입력하세요"
-        $0.font = UIFont(name: "WantedSans-SemiBold", size: 14)
-        
-        if let palceColor = UIColor(named: "palce") {
-            $0.layer.borderColor = palceColor.cgColor
-        }
-        $0.layer.borderWidth = 2.0
-        $0.layer.cornerRadius = 10
-        let leftPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 11.95, height:$0.frame.height))
-        $0.leftView = leftPaddingView
-        $0.leftViewMode = .always
-    }
+    let idTextField = CrabTextField(titleText: "아이디", placeholder: "아이디를 입력해주세요", isHidden: true)
+//    let idtextfield = idTextField().then {
+//        $0.placeholder = "아이디를 입력하세요"
+//        $0.font = UIFont(name: "WantedSans-SemiBold", size: 14)
+//        
+//        if let palceColor = UIColor(named: "palce") {
+//            $0.layer.borderColor = palceColor.cgColor
+//        }
+//        $0.layer.borderWidth = 2.0
+//        $0.layer.cornerRadius = 10
+//        let leftPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 11.95, height:$0.frame.height))
+//        $0.leftView = leftPaddingView
+//        $0.leftViewMode = .always
+//    }
     
     let pwtext = UILabel().then {
         $0.text = "비밀번호"
@@ -45,19 +46,20 @@ class LoginViewController: UIViewController {
  
     }
     
-    let pwtextfield = pwTextField().then {
-        $0.placeholder = "비밀번호를 입력하세요"
-        $0.layer.borderWidth = 2.0
-        $0.layer.cornerRadius = 10
-        $0.font = UIFont(name: "WantedSans-SemiBold", size: 14)
-        if let palceColor = UIColor(named: "palce") {
-            $0.layer.borderColor = palceColor.cgColor
-        }
-        
-        let leftPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 11.95, height: $0.frame.height))
-        $0.leftView = leftPaddingView
-        $0.leftViewMode = .always
-    }
+    let pwTextField =  CrabTextField(titleText: "비밀번호", placeholder: "비밀번호를 입력해주세요", isHidden: false)
+//    let pwtextfield = pwTextField().then {
+//        $0.placeholder = "비밀번호를 입력하세요"
+//        $0.layer.borderWidth = 2.0
+//        $0.layer.cornerRadius = 10
+//        $0.font = UIFont(name: "WantedSans-SemiBold", size: 14)
+//        if let palceColor = UIColor(named: "palce") {
+//            $0.layer.borderColor = palceColor.cgColor
+//        }
+//        
+//        let leftPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 11.95, height: $0.frame.height))
+//        $0.leftView = leftPaddingView
+//        $0.leftViewMode = .always
+//    }
     
     
     let pwcheckTextField = UITextField().then {
@@ -88,17 +90,11 @@ class LoginViewController: UIViewController {
         if let customFont = UIFont(name: "WantedSans-Medium", size: 16) {
             $0.titleLabel?.font = customFont
         }
-        
-        
-        
-        
     }
     
-    
-
-    
-    
-    let customview = ctview()
+    let customview = UIView().then {
+        $0.backgroundColor = .white
+    }
     
     let eyeButton = UIButton().then {
         $0.setImage(.eye, for: .normal)
@@ -116,7 +112,6 @@ class LoginViewController: UIViewController {
         if let customFont = UIFont(name: "WantedSans-Medium", size: 16) {
             $0.titleLabel?.font = customFont
         }
-        
 
         //$0.changePointColor(targetStringList: ["회원가입"], color: .blue)
     }
@@ -129,12 +124,12 @@ class LoginViewController: UIViewController {
     }
     
     @objc func signupbuttontapp() {
-        let signupVC = ViewController()
-        if let navigationController = navigationController {
-            navigationController.pushViewController(signupVC, animated: true)
-        } else {
-            present(signupVC, animated: true, completion: nil)
-        }
+//        let signupVC = SignupViewController()
+//        if let navigationController = navigationController {
+//            navigationController.pushViewController(signupVC, animated: true)
+//        } else {
+//            present(signupVC, animated: true, completion: nil)
+//        }
     }
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
@@ -150,9 +145,9 @@ class LoginViewController: UIViewController {
         
         [
             explainLabel,
-            pwtextfield,
+            idTextField,
             eyeButton,
-            idtextfield,
+            pwTextField,
             eyeButton2,
             idtext,
             pwtext,
@@ -174,13 +169,13 @@ class LoginViewController: UIViewController {
             $0.width.height.equalTo(100)
         }
         
-        idtextfield.snp.makeConstraints {
+        idTextField.snp.makeConstraints {
             $0.top.equalToSuperview().inset(207)
             $0.left.right.equalToSuperview().inset(20)
             $0.height.equalTo(40)
         }
         
-        pwtextfield.snp.makeConstraints {
+        pwTextField.snp.makeConstraints {
             $0.top.equalToSuperview().inset(327)
             $0.left.right.equalToSuperview().inset(20)
             $0.height.equalTo(40)

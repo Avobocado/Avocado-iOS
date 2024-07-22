@@ -10,7 +10,6 @@ class MainViewController: UIViewController {
     
     let plus = UIImageView().then {
         $0.image = .plus
-        
     }
     let label = UILabel().then {
         $0.text = "dudwo._"
@@ -22,18 +21,15 @@ class MainViewController: UIViewController {
         $0.image = .fix
         
     }
-    let customview = cutomview()
+    let customview = UIView()
     
-    let customeview1 = cutomvieww().then{
-        $0.backgroundColor = .dsdad
+    let customeview1 = UIView().then{
+        $0.backgroundColor = .white
         $0.layer.cornerRadius = 22
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-      
-       
-
     }
     let textlabel = UILabel().then {
         $0.text = "대게"
