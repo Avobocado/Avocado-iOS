@@ -20,10 +20,10 @@ class LoginViewController: UIViewController {
         $0.font = UIFont(name: "WantedSans-Medium", size: 16)
     }
     
-    let idtext = UILabel().then {
-        $0.text = "아이디"
-        $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
-    }
+//    let idtext = UILabel().then {
+//        $0.text = "아이디"
+//        $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
+//    }
     
     let idTextField = CrabTextField(titleText: "아이디", placeholder: "아이디를 입력해주세요", isHidden: true)
 //    let idtextfield = idTextField().then {
@@ -39,13 +39,13 @@ class LoginViewController: UIViewController {
 //        $0.leftView = leftPaddingView
 //        $0.leftViewMode = .always
 //    }
-    
-    let pwtext = UILabel().then {
-        $0.text = "비밀번호"
-        $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
- 
-    }
-    
+//    
+//    let pwtext = UILabel().then {
+//        $0.text = "비밀번호"
+//        $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
+// 
+//    }
+//    
     let pwTextField =  CrabTextField(titleText: "비밀번호", placeholder: "비밀번호를 입력해주세요", isHidden: false)
 //    let pwtextfield = pwTextField().then {
 //        $0.placeholder = "비밀번호를 입력하세요"
@@ -62,24 +62,24 @@ class LoginViewController: UIViewController {
 //    }
     
     
-    let pwcheckTextField = UITextField().then {
-        $0.placeholder = "비밀번호를 다시 입력하세요"
-        
-        //titleLabel.font = UIFont(name: "SuncheonR", size: 12.0)
-        
-        $0.textColor = .textcolor
-        $0.layer.borderWidth = 2.0
-        $0.layer.cornerRadius = 10
-        if let palceColor = UIColor(named: "palce") {
-            $0.layer.borderColor = palceColor.cgColor
-        }
-        $0.backgroundColor = .white
-        
-        let leftPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 11.95, height: $0.frame.height))
-        $0.leftView = leftPaddingView
-        $0.leftViewMode = .always
-        
-    }
+//    let pwcheckTextField = UITextField().then {
+//        $0.placeholder = "비밀번호를 다시 입력하세요"
+//        
+//        //titleLabel.font = UIFont(name: "SuncheonR", size: 12.0)
+//        
+//        $0.textColor = .textcolor
+//        $0.layer.borderWidth = 2.0
+//        $0.layer.cornerRadius = 10
+//        if let palceColor = UIColor(named: "palce") {
+//            $0.layer.borderColor = palceColor.cgColor
+//        }
+//        $0.backgroundColor = .white
+//        
+//        let leftPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 11.95, height: $0.frame.height))
+//        $0.leftView = leftPaddingView
+//        $0.leftViewMode = .always
+//        
+//    }
     let loginbutton = UIButton().then {
         $0.setTitle("로그인", for: .normal) // 텍스트 설정
         $0.setTitleColor(.white, for: .normal) //
@@ -149,8 +149,8 @@ class LoginViewController: UIViewController {
             eyeButton,
             pwTextField,
             eyeButton2,
-            idtext,
-            pwtext,
+//            idtext,
+//            pwtext,
             logotext,
             loginbutton,
             signupbutton
@@ -199,20 +199,20 @@ class LoginViewController: UIViewController {
             
         }
         
-        idtext.snp.makeConstraints {
-            $0.top.equalToSuperview().inset(184)
-            $0.height.equalTo(19)
-            $0.left.equalToSuperview().inset(20)
-            $0.right.equalToSuperview().inset(246)
-            
-        }
-        pwtext.snp.makeConstraints {
-            $0.top.equalToSuperview().inset(304)
-            $0.height.equalTo(20)
-            $0.left.equalToSuperview().inset(19)
-            $0.right.equalToSuperview().inset(233)
-            
-        }
+//        idtext.snp.makeConstraints {
+//            $0.top.equalToSuperview().inset(184)
+//            $0.height.equalTo(19)
+//            $0.left.equalToSuperview().inset(20)
+//            $0.right.equalToSuperview().inset(246)
+//            
+//        }
+//        pwtext.snp.makeConstraints {
+//            $0.top.equalToSuperview().inset(304)
+//            $0.height.equalTo(20)
+//            $0.left.equalToSuperview().inset(19)
+//            $0.right.equalToSuperview().inset(233)
+//            
+//        }
         
         logotext.snp.makeConstraints {
             $0.top.equalToSuperview().inset(52)
