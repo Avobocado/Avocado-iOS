@@ -2,11 +2,12 @@ import UIKit
 import SnapKit
 import Then
 
-class MainViewController: UIViewController {
+class PictureViewController: UIViewController {
     
     let logoimage = UIImageView().then {
         $0.image = .logo
     }
+
     
     let plus = UIImageView().then {
         $0.image = .plus
@@ -21,10 +22,13 @@ class MainViewController: UIViewController {
         $0.image = .fix
         
     }
-    let customview = UIView()
+    let customview = UIView().then {
+        $0.backgroundColor = .main
+        
+    }
     
     let customeview1 = UIView().then{
-        $0.backgroundColor = .white
+        $0.backgroundColor = .main
         $0.layer.cornerRadius = 22
     }
     override func viewDidLoad() {
@@ -41,9 +45,10 @@ class MainViewController: UIViewController {
         $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
         $0.textColor = .white
     }
-    let curcle = UIView().then {
-        $0.layer.cornerRadius = 70
-        $0.backgroundColor = .grawy
+ 
+    
+    let catpicture = UIImageView().then {
+        $0.image = .cat
     }
     
 
@@ -65,16 +70,18 @@ class MainViewController: UIViewController {
             textlabel,
             textlabel1,
             
+            
            
         
         ].forEach {customview.addSubview($0) }
         [
             
         
-            curcle,
+            
             plus,
             fix,
-            label
+            label,
+            catpicture
             
         ].forEach{customeview1.addSubview($0) }
         logoimage.snp.makeConstraints {
@@ -93,7 +100,12 @@ class MainViewController: UIViewController {
         
         }
         
-
+        catpicture.snp.makeConstraints {
+            $0.width.height.equalTo(140)
+            $0.centerX.equalToSuperview()
+            $0.top.equalToSuperview().inset(52)
+            
+        }
         textlabel.snp.makeConstraints {
             $0.top.equalToSuperview().inset(10)
             $0.left.equalToSuperview().inset(55)
@@ -104,13 +116,7 @@ class MainViewController: UIViewController {
             $0.top.equalToSuperview().inset(13)
             $0.right.equalToSuperview().inset(12)
         }
-        
-        curcle.snp.makeConstraints {
-            $0.width.height.equalTo(140)
-            $0.top.equalToSuperview().inset(52)
-            $0.left.equalToSuperview().inset(100)
-            
-        }
+      
         customeview1.snp.makeConstraints {
             $0.width.equalTo(340)
             $0.height.equalTo(380)
@@ -137,4 +143,5 @@ class MainViewController: UIViewController {
     }
 
 }
+
 
