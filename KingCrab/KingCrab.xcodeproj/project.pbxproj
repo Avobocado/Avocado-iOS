@@ -11,7 +11,11 @@
 		11293A032C3C013200CBEA61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11293A022C3C013200CBEA61 /* SceneDelegate.swift */; };
 		11293A0A2C3C013200CBEA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11293A092C3C013200CBEA61 /* Assets.xcassets */; };
 		11293A1D2C3D3FD200CBEA61 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 11293A1C2C3D3FD200CBEA61 /* Then */; };
-		116AEE012C4894F100735FAA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AEE002C4894F100735FAA /* MainViewController.swift */; };
+		114CD45A2C4FE398000DEFA9 /* WritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD4592C4FE398000DEFA9 /* WritePageViewController.swift */; };
+		114CD45E2C5135CD000DEFA9 /* MyPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD45D2C5135CD000DEFA9 /* MyPage2ViewController.swift */; };
+		114CD4602C513DD3000DEFA9 /* MyPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD45F2C513DD3000DEFA9 /* MyPage3ViewController.swift */; };
+		114CD4622C528B76000DEFA9 /* MyPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD4612C528B76000DEFA9 /* MyPage4ViewController.swift */; };
+		116AEE012C4894F100735FAA /* MyPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AEE002C4894F100735FAA /* MyPage1ViewController.swift */; };
 		116AEE032C48A22200735FAA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AEE022C48A22200735FAA /* File.swift */; };
 		11964A532C4164880091BE3D /* WantedSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11964A2E2C4164880091BE3D /* WantedSans-Black.otf */; };
 		11964A542C4164880091BE3D /* WantedSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11964A2F2C4164880091BE3D /* WantedSans-Bold.otf */; };
@@ -43,6 +47,8 @@
 		11C56A842C4646760074E3AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C56A832C4646760074E3AF /* LoginViewController.swift */; };
 		11F750932C3D5483004098F0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F750922C3D5483004098F0 /* SignupViewController.swift */; };
 		11F750972C3F9F90004098F0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F750962C3F9F90004098F0 /* Launch Screen.storyboard */; };
+		11FF71F52C57C73200D6B6B2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF71F42C57C73200D6B6B2 /* TableViewCell.swift */; };
+		11FF71F72C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF71F62C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift */; };
 		D248A4562C4E57BB009ACB9E /* CrabTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248A4552C4E57BB009ACB9E /* CrabTextField.swift */; };
 		D248A4592C4E5A84009ACB9E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D248A4582C4E5A84009ACB9E /* SnapKit */; };
 /* End PBXBuildFile section */
@@ -53,7 +59,11 @@
 		11293A022C3C013200CBEA61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11293A092C3C013200CBEA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11293A0E2C3C013200CBEA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		116AEE002C4894F100735FAA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		114CD4592C4FE398000DEFA9 /* WritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePageViewController.swift; sourceTree = "<group>"; };
+		114CD45D2C5135CD000DEFA9 /* MyPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPage2ViewController.swift; sourceTree = "<group>"; };
+		114CD45F2C513DD3000DEFA9 /* MyPage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyPage3ViewController.swift; path = KingCrab/Sources/Scene/MyPage3ViewController.swift; sourceTree = SOURCE_ROOT; };
+		114CD4612C528B76000DEFA9 /* MyPage4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPage4ViewController.swift; sourceTree = "<group>"; };
+		116AEE002C4894F100735FAA /* MyPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPage1ViewController.swift; sourceTree = "<group>"; };
 		116AEE022C48A22200735FAA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		11964A2E2C4164880091BE3D /* WantedSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WantedSans-Black.otf"; sourceTree = "<group>"; };
 		11964A2F2C4164880091BE3D /* WantedSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WantedSans-Bold.otf"; sourceTree = "<group>"; };
@@ -85,6 +95,8 @@
 		11C56A832C4646760074E3AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		11F750922C3D5483004098F0 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		11F750962C3F9F90004098F0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		11FF71F42C57C73200D6B6B2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		11FF71F62C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewControllerTableViewController.swift; sourceTree = "<group>"; };
 		D248A4552C4E57BB009ACB9E /* CrabTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrabTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +137,14 @@
 				11293A0E2C3C013200CBEA61 /* Info.plist */,
 			);
 			path = KingCrab;
+			sourceTree = "<group>";
+		};
+		114CD4582C4FE348000DEFA9 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				114CD4592C4FE398000DEFA9 /* WritePageViewController.swift */,
+			);
+			path = MainPage;
 			sourceTree = "<group>";
 		};
 		11964A2D2C4164140091BE3D /* Font */ = {
@@ -290,9 +310,10 @@
 		11C56A802C45681E0074E3AF /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				D248A4502C4E56B3009ACB9E /* Signup */,
 				D248A4522C4E56BE009ACB9E /* Main */,
 				D248A4512C4E56BB009ACB9E /* Login */,
-				D248A4502C4E56B3009ACB9E /* Signup */,
+				114CD4582C4FE348000DEFA9 /* MainPage */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -324,7 +345,12 @@
 		D248A4522C4E56BE009ACB9E /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				116AEE002C4894F100735FAA /* MainViewController.swift */,
+				116AEE002C4894F100735FAA /* MyPage1ViewController.swift */,
+				114CD45D2C5135CD000DEFA9 /* MyPage2ViewController.swift */,
+				114CD45F2C513DD3000DEFA9 /* MyPage3ViewController.swift */,
+				114CD4612C528B76000DEFA9 /* MyPage4ViewController.swift */,
+				11FF71F42C57C73200D6B6B2 /* TableViewCell.swift */,
+				11FF71F62C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -443,12 +469,18 @@
 			files = (
 				11F750932C3D5483004098F0 /* SignupViewController.swift in Sources */,
 				11293A012C3C013200CBEA61 /* AppDelegate.swift in Sources */,
+				114CD4622C528B76000DEFA9 /* MyPage4ViewController.swift in Sources */,
 				11C56A842C4646760074E3AF /* LoginViewController.swift in Sources */,
+				114CD45E2C5135CD000DEFA9 /* MyPage2ViewController.swift in Sources */,
+				11FF71F72C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift in Sources */,
+				11FF71F52C57C73200D6B6B2 /* TableViewCell.swift in Sources */,
 				116AEE032C48A22200735FAA /* File.swift in Sources */,
 				11293A032C3C013200CBEA61 /* SceneDelegate.swift in Sources */,
-				116AEE012C4894F100735FAA /* MainViewController.swift in Sources */,
+				116AEE012C4894F100735FAA /* MyPage1ViewController.swift in Sources */,
+				114CD4602C513DD3000DEFA9 /* MyPage3ViewController.swift in Sources */,
 				11C56A822C4568470074E3AF /* UILabel+PointColor.swift in Sources */,
 				D248A4562C4E57BB009ACB9E /* CrabTextField.swift in Sources */,
+				114CD45A2C4FE398000DEFA9 /* WritePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

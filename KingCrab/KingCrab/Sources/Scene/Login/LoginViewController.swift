@@ -10,13 +10,13 @@ class LoginViewController: UIViewController {
     
     let logotext = UILabel().then {
         $0.text = "대게"
-        $0.textColor = .dglgcolor
+        $0.textColor = .main
         $0.font = UIFont(name: "WantedSans-SemiBold", size: 32)
     }
     let explainLabel = UILabel().then {
         $0.text = "대마고 게시판에 로그인 하세요"
         $0.textColor = .black
-        $0.changePointColor(targetStringList: ["대", "게"], color: .dglgcolor)
+        $0.changePointColor(targetStringList: ["대", "게"], color: .main)
         $0.font = UIFont(name: "WantedSans-Medium", size: 16)
     }
     
@@ -84,7 +84,7 @@ class LoginViewController: UIViewController {
         $0.setTitle("로그인", for: .normal) // 텍스트 설정
         $0.setTitleColor(.white, for: .normal) //
         
-        $0.backgroundColor = .dglgcolor
+        $0.backgroundColor = .main
         $0.layer.cornerRadius = 10
         
         if let customFont = UIFont(name: "WantedSans-Medium", size: 16) {
@@ -107,7 +107,7 @@ class LoginViewController: UIViewController {
     let signupbutton = UIButton().then {
         $0.setTitle("계정이 없으신가요? 대게에 회원가입하세요.", for: .normal)
         $0.setTitleColor(.black, for: .normal)
-        $0.ChangePointColor(targetStringList: ["회원가입"], color: .dglgcolor)
+        $0.ChangePointColor(targetStringList: ["회원가입"], color: .main)
       
         if let customFont = UIFont(name: "WantedSans-Medium", size: 16) {
             $0.titleLabel?.font = customFont
@@ -118,7 +118,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .backgroundcolor
+        self.view.backgroundColor = .main
         signupbutton.addTarget(self, action: #selector(signupbuttontapp), for: .touchUpInside)
 
     }

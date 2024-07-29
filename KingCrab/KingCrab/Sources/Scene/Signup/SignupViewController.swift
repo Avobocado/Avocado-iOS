@@ -23,7 +23,7 @@
 //    let idtext = UILabel().then {
 //        $0.text = "아이디"
 //        $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
-//    }
+//    }/Users/heoyoungjae/Desktop/KingCrab-iOS/KingCrab/KingCrab/Sources/Signup
 //  
 //    let idtextfield = idTextField().then {
 //        $0.placeholder = "6자이상 입력해주세요"

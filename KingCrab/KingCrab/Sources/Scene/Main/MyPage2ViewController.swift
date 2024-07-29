@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import Then
 
-class CameraViewController: UIViewController {
+class MyPage2ViewController: UIViewController {
     
     let logoimage = UIImageView().then {
         $0.image = .logo
@@ -15,8 +15,8 @@ class CameraViewController: UIViewController {
         $0.placeholder = "dudwo._"
         $0.layer.borderWidth = 2.0
          $0.layer.cornerRadius = 10
-         if let palceColor = UIColor(named: "palce") {
-            $0.layer.borderColor = palceColor.cgColor
+         if let gray300 = UIColor(named: "gray300") {
+             $0.layer.borderColor = gray300.cgColor
          }
          $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)
          let leftPaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: $0.frame.height))
@@ -37,22 +37,24 @@ class CameraViewController: UIViewController {
     }
     let curcle = UIView().then {
         $0.layer.cornerRadius = 70
-        $0.backgroundColor = .main
+        $0.backgroundColor = .gray100
     }
         
     let saveview = UIView().then {
         $0.backgroundColor = .main
         $0.layer.cornerRadius = 10
+        $0.backgroundColor = .main500
     }
     
     let customview = UIView().then {
-        $0.backgroundColor = .main
+        $0.backgroundColor = .main100
     }
     
     let savelabel = UILabel().then {
         $0.text = "저장"
         $0.textColor = .white
-        $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)    }
+        $0.font = UIFont(name: "WantedSans-SemiBold", size: 16)  
+    }
     let idlable = UILabel().then {
         $0.text = "아이디"
         $0.textColor = .black
@@ -106,12 +108,16 @@ class CameraViewController: UIViewController {
             camerimage,
             pwtextfield,
             idlable,
-            savelabel,
+            
             saveview
             
             
             
         ].forEach {customeview1.addSubview($0) }
+        
+        [
+            savelabel
+        ].forEach {saveview.addSubview($0)}
        
         
         logoimage.snp.makeConstraints {
@@ -162,9 +168,7 @@ class CameraViewController: UIViewController {
         }
         
         savelabel.snp.makeConstraints {
-            $0.top.equalToSuperview().inset(6)
-            $0.left.equalToSuperview().inset(22)
-            $0.right.equalToSuperview().inset(22)
+            $0.centerX.centerY.equalToSuperview()
         }
         
         textlabel1.snp.makeConstraints {

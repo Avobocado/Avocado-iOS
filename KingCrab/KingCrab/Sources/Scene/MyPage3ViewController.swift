@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import Then
 
-class PictureViewController: UIViewController {
+class MyPage3ViewController: UIViewController {
     
     let logoimage = UIImageView().then {
         $0.image = .logo
