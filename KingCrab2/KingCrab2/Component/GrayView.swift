@@ -7,28 +7,23 @@ class GrayView: UIView {
         $0.text = "작성자"
         $0.font = UIFont(name: "WantedSans-Medium", size: 12)
     }
-    
     let write2 = UILabel().then {
         $0.text = "dudwo._"
         $0.font = UIFont(name: "WantedSans-Medium", size: 12)
     }
-    
     let write3 = UILabel().then {
         $0.text = "작성일"
         $0.font = UIFont(name: "WantedSans-Medium", size: 12)
     }
-    
     let write4 = UILabel().then {
         $0.text = "2024.07.07"
         $0.font = UIFont(name: "WantedSans-Medium", size: 12)
     }
- 
     let lovetext = UILabel().then{
         $0.text = "30"
         $0.font = UIFont(name: "WantedSans-Medium", size: 16)
         $0.textColor = .gray500
     }
-    
     let loveimage = UIImageView().then {
         $0.image = .heart
     }
@@ -59,7 +54,6 @@ class GrayView: UIView {
             $0.right.equalToSuperview().inset(329)
             $0.height.equalTo(14)
         }
-        
         write2.snp.makeConstraints {
             $0.top.equalToSuperview().inset(17)
             $0.left.equalToSuperview().inset(85)

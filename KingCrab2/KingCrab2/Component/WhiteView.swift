@@ -11,12 +11,7 @@ class WhiteView: UIView {
     }
     let Iview = UIView().then {
         $0.backgroundColor = .gray300
-        
     }
-    
-  
-    
-  
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -29,7 +24,7 @@ class WhiteView: UIView {
     
     private func setupView() {
         addSubview(titlelabel)
-      
+        
         addSubview(Iview)
         
         setupConstraints()
@@ -43,9 +38,5 @@ class WhiteView: UIView {
             $0.right.equalToSuperview().inset(333)
             $0.height.equalTo(21)
         }
-        
-        
-        
-      
-   
-}}
+    }
+}

@@ -9,9 +9,7 @@ class ViewController04Cell: UITableViewCell {
     let img: UIImageView = UIImageView().then {
         $0.image = UIImage(systemName: "icon   ")
         $0.translatesAutoresizingMaskIntoConstraints = false
-        
     }
-    
     let label: UILabel = UILabel().then {
         $0.text = "상어상어"
         $0.textColor = UIColor.gray
@@ -39,7 +37,6 @@ class ViewController04Cell: UITableViewCell {
             $0.leading.top.equalTo(5)
             $0.size.equalTo(100)
         }
-        
         label.snp.makeConstraints {
             $0.leading.equalTo(img.snp.trailing).offset(5)
             $0.top.equalTo(5)

@@ -144,6 +144,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1106F2D42C625B9B0051BD9D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				11A70F812C5C7CDA001BB872 /* WantedSans-1.0.3 (1) */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1106F2D52C625BCA0051BD9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11A70F302C5C7772001BB872 /* LaunchScreen.storyboard */,
+				11A70F2E2C5C7772001BB872 /* Assets.xcassets */,
+				1106F2D42C625B9B0051BD9D /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1106F2D62C625BFD0051BD9D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1106F2D72C625C120051BD9D /* Application */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1106F2D72C625C120051BD9D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				11A70F252C5C7771001BB872 /* AppDelegate.swift */,
+				11A70F272C5C7771001BB872 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1106F2D82C625C3D0051BD9D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				11A70F5B2C5C792C001BB872 /* CustomView.swift */,
+				11A70FA02C5CB777001BB872 /* WhiteView.swift */,
+				11A70F9E2C5CB104001BB872 /* GrayView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1106F2D92C625C7F0051BD9D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1106F2DA2C625CB50051BD9D /* Main */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		1106F2DA2C625CB50051BD9D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				11A70FA82C5CE17E001BB872 /* MainPageTableViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1106F2DB2C625CBD0051BD9D /* Fix */ = {
+			isa = PBXGroup;
+			children = (
+				119ACCAA2C61158F00F2E42C /* DeleteViewController.swift */,
+				11A70FA62C5CCD44001BB872 /* FixPage1ViewController.swift */,
+				11A70F292C5C7771001BB872 /* WriteViewController.swift */,
+				11A70FA42C5CC45A001BB872 /* FixPageViewController.swift */,
+			);
+			path = Fix;
+			sourceTree = "<group>";
+		};
 		11A70F192C5C7771001BB872 = {
 			isa = PBXGroup;
 			children = (
@@ -167,19 +239,11 @@
 		11A70F242C5C7771001BB872 /* KingCrab2 */ = {
 			isa = PBXGroup;
 			children = (
-				11A70F812C5C7CDA001BB872 /* WantedSans-1.0.3 (1) */,
-				11A70F252C5C7771001BB872 /* AppDelegate.swift */,
-				11A70F272C5C7771001BB872 /* SceneDelegate.swift */,
-				11A70F292C5C7771001BB872 /* WriteViewController.swift */,
-				119ACCAA2C61158F00F2E42C /* DeleteViewController.swift */,
-				11A70FA82C5CE17E001BB872 /* MainPageTableViewController.swift */,
-				11A70FA42C5CC45A001BB872 /* FixPageViewController.swift */,
-				11A70FA62C5CCD44001BB872 /* FixPage1ViewController.swift */,
-				11A70FA02C5CB777001BB872 /* WhiteView.swift */,
-				11A70F5B2C5C792C001BB872 /* CustomView.swift */,
-				11A70F9E2C5CB104001BB872 /* GrayView.swift */,
-				11A70F2E2C5C7772001BB872 /* Assets.xcassets */,
-				11A70F302C5C7772001BB872 /* LaunchScreen.storyboard */,
+				1106F2D52C625BCA0051BD9D /* Resources */,
+				1106F2D62C625BFD0051BD9D /* Sources */,
+				1106F2D82C625C3D0051BD9D /* Component */,
+				1106F2D92C625C7F0051BD9D /* Scene */,
+				1106F2DB2C625CBD0051BD9D /* Fix */,
 				11A70F332C5C7772001BB872 /* Info.plist */,
 			);
 			path = KingCrab2;
