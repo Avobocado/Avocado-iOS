@@ -47,6 +47,7 @@
 		11964A6C2C4164880091BE3D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11964A512C4164880091BE3D /* OFL.txt */; };
 		11C56A822C4568470074E3AF /* UILabel+PointColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C56A812C4568470074E3AF /* UILabel+PointColor.swift */; };
 		11C56A842C4646760074E3AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C56A832C4646760074E3AF /* LoginViewController.swift */; };
+		11CFEF082C4E5B6000611FDA /* uiviewww.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEF072C4E5B6000611FDA /* uiviewww.swift */; };
 		11F750932C3D5483004098F0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F750922C3D5483004098F0 /* SignupViewController.swift */; };
 		11F750972C3F9F90004098F0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F750962C3F9F90004098F0 /* Launch Screen.storyboard */; };
 		D248A4562C4E57BB009ACB9E /* CrabTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248A4552C4E57BB009ACB9E /* CrabTextField.swift */; };
@@ -92,6 +93,7 @@
 		11964A512C4164880091BE3D /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		11C56A812C4568470074E3AF /* UILabel+PointColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+PointColor.swift"; sourceTree = "<group>"; };
 		11C56A832C4646760074E3AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		11CFEF072C4E5B6000611FDA /* uiviewww.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiviewww.swift; sourceTree = "<group>"; };
 		11F750922C3D5483004098F0 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		11F750962C3F9F90004098F0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D248A4552C4E57BB009ACB9E /* CrabTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrabTextField.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		112939F42C3C013200CBEA61 = {
 			isa = PBXGroup;
 			children = (
+				11CFEF072C4E5B6000611FDA /* uiviewww.swift */,
 				112939FF2C3C013200CBEA61 /* KingCrab */,
 				112939FE2C3C013200CBEA61 /* Products */,
 			);
@@ -465,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F750932C3D5483004098F0 /* SignupViewController.swift in Sources */,
+				11CFEF082C4E5B6000611FDA /* uiviewww.swift in Sources */,
 				11293A012C3C013200CBEA61 /* AppDelegate.swift in Sources */,
 				114CD4622C528B76000DEFA9 /* MyPage4ViewController.swift in Sources */,
 				11C56A842C4646760074E3AF /* LoginViewController.swift in Sources */,
