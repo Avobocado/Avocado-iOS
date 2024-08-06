@@ -10,13 +10,15 @@
 		11293A012C3C013200CBEA61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11293A002C3C013200CBEA61 /* AppDelegate.swift */; };
 		11293A032C3C013200CBEA61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11293A022C3C013200CBEA61 /* SceneDelegate.swift */; };
 		11293A0A2C3C013200CBEA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11293A092C3C013200CBEA61 /* Assets.xcassets */; };
-		11293A1D2C3D3FD200CBEA61 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 11293A1C2C3D3FD200CBEA61 /* Then */; };
 		114CD45A2C4FE398000DEFA9 /* WritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD4592C4FE398000DEFA9 /* WritePageViewController.swift */; };
 		114CD45E2C5135CD000DEFA9 /* MyPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD45D2C5135CD000DEFA9 /* MyPage2ViewController.swift */; };
 		114CD4602C513DD3000DEFA9 /* MyPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD45F2C513DD3000DEFA9 /* MyPage3ViewController.swift */; };
 		114CD4622C528B76000DEFA9 /* MyPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD4612C528B76000DEFA9 /* MyPage4ViewController.swift */; };
 		116AEE012C4894F100735FAA /* MyPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AEE002C4894F100735FAA /* MyPage1ViewController.swift */; };
 		116AEE032C48A22200735FAA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AEE022C48A22200735FAA /* File.swift */; };
+		118242E22C5B9C310074D3F4 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 118242E12C5B9C310074D3F4 /* Then */; };
+		118242E52C5C71580074D3F4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 118242E42C5C71580074D3F4 /* SnapKit */; };
+		118242E72C5C71580074D3F4 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 118242E62C5C71580074D3F4 /* SnapKit-Dynamic */; };
 		11964A532C4164880091BE3D /* WantedSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11964A2E2C4164880091BE3D /* WantedSans-Black.otf */; };
 		11964A542C4164880091BE3D /* WantedSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11964A2F2C4164880091BE3D /* WantedSans-Bold.otf */; };
 		11964A552C4164880091BE3D /* WantedSans-ExtraBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11964A302C4164880091BE3D /* WantedSans-ExtraBlack.otf */; };
@@ -47,10 +49,7 @@
 		11C56A842C4646760074E3AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C56A832C4646760074E3AF /* LoginViewController.swift */; };
 		11F750932C3D5483004098F0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F750922C3D5483004098F0 /* SignupViewController.swift */; };
 		11F750972C3F9F90004098F0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F750962C3F9F90004098F0 /* Launch Screen.storyboard */; };
-		11FF71F52C57C73200D6B6B2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF71F42C57C73200D6B6B2 /* TableViewCell.swift */; };
-		11FF71F72C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF71F62C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift */; };
 		D248A4562C4E57BB009ACB9E /* CrabTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248A4552C4E57BB009ACB9E /* CrabTextField.swift */; };
-		D248A4592C4E5A84009ACB9E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D248A4582C4E5A84009ACB9E /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,8 +94,6 @@
 		11C56A832C4646760074E3AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		11F750922C3D5483004098F0 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		11F750962C3F9F90004098F0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		11FF71F42C57C73200D6B6B2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		11FF71F62C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewControllerTableViewController.swift; sourceTree = "<group>"; };
 		D248A4552C4E57BB009ACB9E /* CrabTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrabTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,8 +102,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11293A1D2C3D3FD200CBEA61 /* Then in Frameworks */,
-				D248A4592C4E5A84009ACB9E /* SnapKit in Frameworks */,
+				118242E22C5B9C310074D3F4 /* Then in Frameworks */,
+				118242E52C5C71580074D3F4 /* SnapKit in Frameworks */,
+				118242E72C5C71580074D3F4 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +347,6 @@
 				114CD45D2C5135CD000DEFA9 /* MyPage2ViewController.swift */,
 				114CD45F2C513DD3000DEFA9 /* MyPage3ViewController.swift */,
 				114CD4612C528B76000DEFA9 /* MyPage4ViewController.swift */,
-				11FF71F42C57C73200D6B6B2 /* TableViewCell.swift */,
-				11FF71F62C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -380,8 +376,9 @@
 			);
 			name = KingCrab;
 			packageProductDependencies = (
-				11293A1C2C3D3FD200CBEA61 /* Then */,
-				D248A4582C4E5A84009ACB9E /* SnapKit */,
+				118242E12C5B9C310074D3F4 /* Then */,
+				118242E42C5C71580074D3F4 /* SnapKit */,
+				118242E62C5C71580074D3F4 /* SnapKit-Dynamic */,
 			);
 			productName = KingCrab;
 			productReference = 112939FD2C3C013200CBEA61 /* KingCrab.app */;
@@ -412,8 +409,8 @@
 			);
 			mainGroup = 112939F42C3C013200CBEA61;
 			packageReferences = (
-				11293A1B2C3D3FD200CBEA61 /* XCRemoteSwiftPackageReference "Then" */,
-				D248A4572C4E5A84009ACB9E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				118242E02C5B9C310074D3F4 /* XCRemoteSwiftPackageReference "Then" */,
+				118242E32C5C71580074D3F4 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 112939FE2C3C013200CBEA61 /* Products */;
 			projectDirPath = "";
@@ -472,8 +469,6 @@
 				114CD4622C528B76000DEFA9 /* MyPage4ViewController.swift in Sources */,
 				11C56A842C4646760074E3AF /* LoginViewController.swift in Sources */,
 				114CD45E2C5135CD000DEFA9 /* MyPage2ViewController.swift in Sources */,
-				11FF71F72C57CC7500D6B6B2 /* TableviewControllerTableViewController.swift in Sources */,
-				11FF71F52C57C73200D6B6B2 /* TableViewCell.swift in Sources */,
 				116AEE032C48A22200735FAA /* File.swift in Sources */,
 				11293A032C3C013200CBEA61 /* SceneDelegate.swift in Sources */,
 				116AEE012C4894F100735FAA /* MyPage1ViewController.swift in Sources */,
@@ -686,7 +681,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		11293A1B2C3D3FD200CBEA61 /* XCRemoteSwiftPackageReference "Then" */ = {
+		118242E02C5B9C310074D3F4 /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
 			requirement = {
@@ -694,7 +689,7 @@
 				minimumVersion = 3.0.0;
 			};
 		};
-		D248A4572C4E5A84009ACB9E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		118242E32C5C71580074D3F4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -705,15 +700,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		11293A1C2C3D3FD200CBEA61 /* Then */ = {
+		118242E12C5B9C310074D3F4 /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 11293A1B2C3D3FD200CBEA61 /* XCRemoteSwiftPackageReference "Then" */;
+			package = 118242E02C5B9C310074D3F4 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
 		};
-		D248A4582C4E5A84009ACB9E /* SnapKit */ = {
+		118242E42C5C71580074D3F4 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D248A4572C4E5A84009ACB9E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 118242E32C5C71580074D3F4 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		118242E62C5C71580074D3F4 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 118242E32C5C71580074D3F4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
